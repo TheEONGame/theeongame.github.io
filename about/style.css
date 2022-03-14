@@ -64,7 +64,7 @@
     position: relative;
     width: 60px;
     height: 60px;
-    background: url('assets/menu.png');
+    background: url('../assets/menu.png');
     background-repeat: no-repeat;
     background-size: 30px;
     background-position: center;
@@ -72,7 +72,7 @@
 }
 
 .toggle.active{
-    background: url('assets/close.png');
+    background: url('../assets/close.png');
     background-repeat: no-repeat;
     background-size: 30px;
     background-position: center;
@@ -98,18 +98,17 @@
     font-size: 5em;
     font-weight: 800;
     line-height: 1em;
-    text-transform: uppercase;
 }
 
 .text h3 {
-    font-size: 4em;
+    font-size: 3.5em;
     font-weight: 700;
     line-height: 1em;
     text-transform: uppercase;
 }
 
 .text p{
-    font-size:1.3em;
+    font-size:1.2em;
     margin: 20px 0;
     font-weight: 400;
     max-width: 700px;
