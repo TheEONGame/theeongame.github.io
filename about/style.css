@@ -107,18 +107,11 @@
 .text p{
     font-size:1.2em;
     font-weight: 400;
-    max-width: 1000px;
+    max-width: 780px;
 }
+
 
 .text a{
-    font-size:1em;
-    font-weight: 400;
-    max-width: 1000px;
-    color: deepskyblue;
-}
-
-/*
-.social a{
     display: inline-block;
     font-size: 1em;
     background: #fff;
@@ -128,7 +121,11 @@
     margin-top: 80px;
     transition: 0.2s;
 }
-*/
+
+
+.text a:hover{
+    letter-spacing: 6px;
+}
 
 
 .social{
